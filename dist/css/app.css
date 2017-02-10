@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700");
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif; }
+
+p {
+  letter-spacing: 1px;
+  font-weight: 300; }
+
+a {
+  font-weight: 300; }
+
+h1 {
+  font-size: 1em; }
+
+h2 {
+  font-size: 0.9em; }
+
+h3 {
+  font-size: 0.7em; }
+
+h4 {
+  font-size: 0.5em; }
+
+h5 {
+  font-size: 0.51em; }
+
+h6 {
+  font-size: 0.3em; }
+
+.grid__container {
+  width: 100%; }
+
+.row:before, .row:after {
+  display: table;
+  clear: both; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 24.99%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 49.99%; }
+
+.col-7 {
+  width: 58.33%;
+  background-color: green; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 74.99%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66; }
+
+.col-12 {
+  width: 100%;
+  background-color: blue; }
+
+/*# sourceMappingURL=app.css.map */
