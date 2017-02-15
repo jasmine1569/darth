@@ -2,15 +2,94 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>SASS/BEM</title>
+	<title>METALAB Login Page</title>
 	<link rel="stylesheet" href="../dist/css/app.css">
 </head>
 <body>
-	
 	<div class="wrapper">
-		
-		<div class="col-7 col-12 header">
-			<h1>Here to Learn SASS and BEM</h1>
+
+<!--Darth Vader side-->
+		<div class="container">
+			<div class="row">
+				<div class="col-6 pull--left">
+					<div class="holder holder--dark">
+						<div class="col-12 box box--statement">
+							<p class="font--statement color--white">Join the dark side <br> We have <strong class="color--gradient">REESE’S PIECES</strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!--The Light Side-->
+		<div class="container">
+			<div class="row">
+				<div class="col-6 pull--left">
+					<div class="holder--light">
+
+						<div class="row">
+							<div class="col-12 header">
+								<div class="col-4 pull--left">
+									<h1 class="font--bold color--red">LOGIN</h1>
+								</div>
+								<div class="col-4 pull--left">
+									<div class="box--switch">
+										<label class="switch">
+										  <input type="checkbox">
+										  <div class="slider round"></div>
+										</label>
+									</div>
+								</div>
+								<div class="col-4 pull--left">
+									<h1 class="font--bold pull--right">SIGN UP</h1>
+								</div>
+							</div>
+						</div>
+
+						<br>
+						<br>
+						<br>
+						<br>
+
+						<div class="row">
+							<div class="col-12 box box--username">
+								<form>
+								  <label for="fname" class="">Username</label>
+								  <input type="text" id="fname" name="fname">
+								</form>
+							</div>
+							<div class="col-12 box box--password">
+								<form>
+								  <label for="lname" class="">Password</label>
+								  <input type="text" id="lname" name="lname">
+								</form>
+							</div>
+							<div class="col-12 box">
+								<div class="col-6 pull--left">
+									<input class="w3-check" type="checkbox" checked="checked">
+									<label class="w3-validate">Remember Me</label>
+								</div>
+								<div class="col-6 pull--left">
+									<a class="pull--right" href="#">Forgot your password?</a>
+								</div>
+							</div>
+						</div>
+
+						<br>
+						<br>
+						<br>
+						<br>
+
+						<div class="row">
+							<div class="col-12">
+								<button class="btn middle--object">
+									<p class="font--emphasize color--white">LOGIN</p>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 	</div>

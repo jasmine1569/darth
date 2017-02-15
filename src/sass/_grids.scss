@@ -1,63 +1,136 @@
 
 
 //Grid Container
-.grid__container{
+.container{
 	width: 100%;
+	height: auto;
+	margin: auto;
+	display: block;
+
 }
 
-//Rows Clearfix
-.row:before, .row:after{
-	display:table;
+//Rows
+.row{
+	width: 100%;
+	height: auto;
+}
+
+//Sections
+.sections{
+	width: auto;
+	// height: 800px;
+	background-color: red;
+}
+
+//Floats
+.pull--right{
+	float: right;
+}
+
+.pull--left{
+	float: left;
+}
+
+.pull--none{
+	float: none;
+}
+
+//Clear
+.clear--left{
+	clear: left;
+}
+
+.clear--right{
+	clear: right;
+}
+
+.clear--both{
 	clear:both;
+}
+
+//Alignment
+.middle--object{
+	margin: auto;
+	display: block;
+}
+
+.middle--text{
+	text-align: center;
+}
+
+
+//Columns Outline
+.col--outline{
+	border: 2px solid rgb(0,0,255);
+	padding: 6px;
+	border-radius: 5px;
+	// border-color: $blue;
+}
+
+//Columns
+.col{
+	// margin: 10px;
+	// padding: 5px;
+	// width: 100%;
 }
 
 //Columns Do the Math: 100/12(this can be anynumber) * col-#
 .col-1{
 	width: 8.33%;
+	// background-color: gold;
 }
 
 .col-2{
-	width: 16.66%; 
+	width: 16.66%;
+	// background-color: crimson;
 }
 
 .col-3{
 	width: 24.99%;
+	// background-color: coral;
 }
 
 .col-4{
 	width: 33.33%;
+	// background-color: orange;
 }
 
 .col-5{
 	width: 41.66%;
+	// background-color: red;
 }
 
 .col-6{
 	width: 49.99%;
+	// background-color: cyan;
 }
 
 .col-7{
 	width: 58.33%;
-	background-color: green;
+	// background-color: green;
 }
 
 .col-8{
 	width: 66.66%;
+	// background-color: lightgray;
 }
 
 .col-9{
 	width: 74.99%;
+	// background-color: yellow;
 }
 
 .col-10{
 	width: 83.33%;
+	// background-color: purple;
 }
 
 .col-11{
 	width: 91.66;
+	// background-color: pink;
 }
 
 .col-12{
 	width: 100%;
-	background-color: blue;
+	// background-color: blue;
 }

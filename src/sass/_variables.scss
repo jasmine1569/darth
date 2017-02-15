@@ -1,11 +1,43 @@
 
 
 //Colors that were saved
+$blue: #0000FF;
+$blue--dark: #2E4974;
+$blue--light: #1E90FF;
+$tan: #B9A179;
+$tan--light: #F7EBD5;
+$tan--gray: #B5B0AA;
+$red: #D00D20;
+$red--dark: #B32341;
+$yellow: #FFC000;
+$orange: #FF6501;
+$oragne--light: #FD9B02;
+$orange--dark: #E24B06;
+$black: #000000;
 
 
-//Grid Sizes
+//Font Family
+$font: 'Nunito', sans-serif;
 
-// xs: 320px;
-// sm: 544px;
-// md: 1024px;
-// lg: 
+//Color Classes
+.color--red{
+	color: $red;
+}
+
+.color--white{
+	color: #fff;
+}
+
+.color--yellow{
+	color: $yellow;
+}
+
+.color--orange{
+	color: $orange;
+}
+
+.color--gradient{
+	background: -webkit-linear-gradient(left, $red, $orange, $yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

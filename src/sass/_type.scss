@@ -3,50 +3,71 @@
 //@import font from Google Fonts or any Web Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700');
 
+//Same styling for all h tags
 h1, h2, h3, h4, h5, h6{
-	letter-spacing: 1px;
 	font-weight: 400;
 	font-family: 'Nunito', sans-serif;
 }
 
+//Paragraph tags styling
 p{
 	letter-spacing: 1px;
+	font-family: $font;
 	font-weight: 300;
+	font-size: 1em;
+	margin: 0px;
 }
 
+//Label tags styling
+label{
+	font-family: $font;
+}
+
+//Herf tags styling
 a{
 	font-weight: 300;
+	font-family: $font;
+	color: $red;
 }
 
 a:hover{
-
+	color: $blue--dark;
 }
 
 a:active{
-
+	color: $red;
 }
 
-h1{
-	font-size: 1em;
-	// line-height: 
+//H tag stylings
+h1{ font-size: 1.5em; }
+
+h2{ font-size: 1em; }
+
+h3{ font-size: 0.9em; }
+
+h4{ font-size: 0.7em; }
+
+h5{ font-size: 0.6em; }
+
+h6{ font-size: 0.5em; }
+
+//Font styling
+.font--bold{
+	font-weight: 600;
 }
 
-h2{
-	font-size: 0.9em;
+.font--light{
+	font-weight: 300;
 }
 
-h3{
-	font-size: 0.7em;
+.font--exlight{
+	font-weight: 200;
 }
 
-h4{
-	font-size: 0.5em;
+.font--emphasize{
+	font-size: 1.5em; font-weight: 600;
 }
 
-h5{
-	font-size: 0.51em;
-}
-
-h6{
-	font-size: 0.3em;
+.font--statement{
+	font-size: 1.3em; font-weight: 300;
 }

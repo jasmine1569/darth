@@ -4,4 +4,11 @@
 @import "variables";
 @import "type";
 @import "grids";
-@import "base";   
+@import "base";
+@import "mixin"; 
+
+//Compents
+@import "buttons";
+@import "box"; 
+@import "switch";
+@import "form";     

@@ -1,0 +1,13 @@
+
+
+//Clearfix
+.clearfix{
+	&:after{
+		display: table;
+		clear: both;
+		content: "";
+	}
+}
+
+//Usage
+  //Name of class/id { @include clearfix; }

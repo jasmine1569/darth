@@ -1,0 +1,44 @@
+
+
+//Boxes
+.holder{
+	padding: 54px
+}
+
+.holder--dark{
+	// width: 100%;
+	background: linear-gradient(rgba(0, 0, 4, 0.8), rgba(0, 0, 4, 0.8)),
+	url("../img/darth.png") no-repeat;
+	height: 74vh;
+	background-size:cover;
+	background-position: center;
+}
+
+.holder--light{
+	background-color: #FFF;
+	height: auto;
+	padding: 54px;
+}
+
+.box{
+	margin: 50px 0px 50px 0px;
+}
+
+.box--switch{
+	text-align: center;
+	height: 64px;
+}
+
+.box--statement{
+	margin: 20px 0px
+}
+
+
+// .box--username{
+// 	margin: 40px 0px 40px 0px;
+// }
+
+// .box--password{
+// 	margin: 40px 0px 40px 0px;
+// }
+
