@@ -1,0 +1,27 @@
+{
+  "name": "SASS/BEM",
+  "homepage": "https://github.com/jazzy5rb/SASS",
+  "authors": [
+    "jazzy5rb <jasmine.beeman@metalab.csun.edu>"
+  ],
+  "description": "sass/bem challenge",
+  "main": "SASS",
+  "keywords": [
+    "sass",
+    "bem",
+    "challenge",
+    "grid",
+    "system"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^5.0.0"
+  }
+}
