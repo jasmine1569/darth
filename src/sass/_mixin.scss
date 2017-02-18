@@ -1,12 +1,15 @@
 
 
 //Clearfix
-.clearfix{
-	&:after{
-		display: table;
-		clear: both;
-		content: "";
-	}
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
 }
 
 //Usage
